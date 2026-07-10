@@ -14,7 +14,7 @@
 // this file or anywhere else in client-side code.
 // ============================================================
 
-export const CLOUDINARY_CLOUD_NAME = "xapgclnr";
-export const CLOUDINARY_UPLOAD_PRESET = "aq7nyu9w";
+export const CLOUDINARY_CLOUD_NAME = "t1fmhszm";
+export const CLOUDINARY_UPLOAD_PRESET = "okansgjk";
 
 export const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
