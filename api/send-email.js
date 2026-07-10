@@ -16,7 +16,7 @@ export default async function handler(req, res) {
   const { type, date, time, service, name, contact, instagram, notes, images } = req.body || {};
 
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
-  const LAUREN_EMAIL = process.env.LAUREN_EMAIL || 'YOUR_EMAIL@example.com' /* TODO: set LAUREN_EMAIL env var on Vercel instead of hardcoding */;
+  const LAUREN_EMAIL = process.env.LAUREN_EMAIL || 'haniyafahim.dev@gmail.com' /* TODO: set LAUREN_EMAIL env var on Vercel instead of hardcoding */;
   const FROM_EMAIL = process.env.FROM_EMAIL || 'onboarding@resend.dev';
 
   if (!RESEND_API_KEY) {
