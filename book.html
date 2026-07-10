@@ -129,7 +129,7 @@
     var loader = document.getElementById('pageLoader');
     if(!loader) return;
     document.documentElement.style.overflow = 'hidden';
-    var minTime = new Promise(function(res){ setTimeout(res, 700); });
+    var minTime = new Promise(function(res){ setTimeout(res, 2000); });
     var pageReady = new Promise(function(res){ if(document.readyState === 'complete') res(); else window.addEventListener('load', res); });
     Promise.all([minTime, pageReady]).then(function(){
       loader.classList.add('loader-hidden');
