@@ -14,9 +14,7 @@
 // this file or anywhere else in client-side code.
 // ============================================================
 
-// ⚠️ PLACEHOLDER VALUES — create a separate Cloudinary account for Lauren
-// (free tier is fine) and paste her own cloud name + unsigned preset here.
-export const CLOUDINARY_CLOUD_NAME = "YOUR_CLOUD_NAME";
-export const CLOUDINARY_UPLOAD_PRESET = "YOUR_UPLOAD_PRESET";
+export const CLOUDINARY_CLOUD_NAME = "xapgclnr";
+export const CLOUDINARY_UPLOAD_PRESET = "aq7nyu9w";
 
 export const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`;
