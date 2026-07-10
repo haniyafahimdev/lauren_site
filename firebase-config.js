@@ -17,13 +17,13 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-aut
 // (e.g. "lauren-does-nails"), enable Firestore + Authentication (Email/
 // Password), then paste that project's config values in below.
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "lauren-does-nails.firebaseapp.com",
-  projectId: "lauren-does-nails",
-  storageBucket: "lauren-does-nails.firebasestorage.app",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyDppRjfRrmkWXcwcyITVbgpATWaKXZHowI",
+  authDomain: "nailsby-yilian.firebaseapp.com",
+  projectId: "nailsby-yilian",
+  storageBucket: "nailsby-yilian.firebasestorage.app",
+  messagingSenderId: "901615893275",
+  appId: "1:901615893275:web:53b18229a7a9a423c3b1be",
+  measurementId: "G-K5E0R2MZPM"
 };
 
 export const app = initializeApp(firebaseConfig);
