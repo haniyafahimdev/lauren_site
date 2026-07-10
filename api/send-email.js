@@ -50,7 +50,7 @@ export default async function handler(req, res) {
            </td></tr>`
         : '',
       ctaLabel: 'Review in Dashboard',
-      ctaUrl: 'https://yillian-site.vercel.app/admin.html',
+      ctaUrl: 'https://lauren-site-weld.vercel.app/admin.html',
       footerNote: 'Confirm or decline this request from your admin dashboard.'
     });
   } else if (type === 'confirmed') {
